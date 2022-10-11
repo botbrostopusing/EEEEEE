@@ -19,7 +19,7 @@ while task.wait(1) and Library.flags.autofarm do
 local args = {
     [1] = "Bet",
     [2] = "50",
-    [3] = "1.02"
+    [3] = "1.03"
 }
 
 game:GetService("ReplicatedStorage").Events.CrashAction:FireServer(unpack(args))
